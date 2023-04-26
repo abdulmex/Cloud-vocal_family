@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+    background-color:lightgray;
+    font-weight: 500;
+    font-size:large;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../Img/west.jpg);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+.img1 {
+    top: 8px;
+    width: 100px;
+    height: 60px;
+    position:relative;
+    margin-top: -10px;
+    float:left;
+}
+.text-center {
+    font-size:500%;
+    font-weight:lighter;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;   
+    transform: translate(-50%, -50%); 
+}
+.text-left {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    padding-left: 90px;
+    font-weight: 200px;
+    font-size: medium;
+    top:18px;
+    left: 16px;
+    float: left;
+    float: right;
+}
+.text-right {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-weight:900;
+    font-size:medium;
+}
+span {
+    font-weight:900;
+    font-size:100%;
+    padding-left: 15px;
+    text-decoration-color: lightgray;
+    text-decoration-line: underline;
+}
+.text-right a {
+    color: white;
+    text-decoration: none;
+}
+.container2 {
+    text-align: center;
+    padding-top: 50px;
+    font-size:270%;
+    font-weight: lighter;
+    background-color:lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+li {
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 110px;
+    text-decoration: underline;
+}
+li, a {
+    color: black;
+}
+h3 {
+    width: 85%;
+    height: 55px;
+    background-color: white;
+    font-weight:lighter;
+    font-size:larger;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-bottom: 50px;
+}
+.img-section {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 50px ;
+    background-color: lightgray;
+}
+.pic1 {
+    float: left;
+    width: 290px;
+    height: 350px;
+    margin-left: 60px;
+    background-color: white;
+    font-family: 'Roboto' sans-serif;
+    font-size:medium;
+    text-decoration: underline;
+}   
+.name {
+    font-weight:500;
+}
+.pic2 {
+    float: left;
+    width: 290px;
+    height: 350px;
+    margin-left: 40px;
+    background-color: white;
+    font-size: medium;
+    text-decoration: underline;
+}
+.pic3 {
+    float: left;
+    width: 290px;
+    height: 350px;
+    margin-left: 40px;
+    background-color: white;
+    font-size: medium;
+    text-decoration: underline;
+}
+.pic4 {
+    float: left;
+    width: 290px;
+    height: 350px; 
+    margin-left: 40px;
+    background-color: white;
+    font-size: medium;
+    text-decoration: underline;
+} 
+ img {
+    width: 290px;
+    height: 300px;
+    float: left;
+}
+.pic1:hover {
+    transform: scale(1.1);
+}
+.pic2:hover {
+    transform: scale(1.1);
+}
+.pic3:hover {
+    transform: scale(1.1);
+}
+ .pic4:hover {
+    transform: scale(1.1);
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(172, 163, 163);
+    font-family: 'Roboto', sans-serif;
+}
+.foot {
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+    font-size:60%;
+    margin-top: 30px;
+    padding-top: 5px;
+    margin-left: 400px;
+    text-align: center;
+}
+.foot, a {
+    text-decoration: none;
+}
