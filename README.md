@@ -1,0 +1,1 @@
+This repo contains my clone of the Cloud vocal family official website, I did it with just HTML and CSS
